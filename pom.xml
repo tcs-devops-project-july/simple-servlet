@@ -22,6 +22,22 @@
 		<sonar.password>Devareddy@0461</sonar.password>
     </properties>
 
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Simple Release Repository</name>
+	      <url>http://3.109.123.197:8082/devtech/repository/simple-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Simple Snapshot Repository </name>
+	      <url>http://3.109.123.197:8082/devtech/repository/simple-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
  <dependencies>
     <dependency>
      <groupId>javax</groupId>
