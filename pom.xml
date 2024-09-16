@@ -16,6 +16,9 @@
            https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-maven-plugin/
         -->
         <jettyVersion>9.4.12.v20180830</jettyVersion>
+        		<sonar.host.url>http://13.233.48.94:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+		<sonar.password>Devareddy@0461</sonar.password>
     </properties>
 
  <dependencies>
